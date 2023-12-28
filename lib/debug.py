@@ -1,4 +1,4 @@
-from solver import *
+from lib.models.solver import *
 from models.cube import *
 
 import ipdb
