@@ -28,7 +28,7 @@ cube_screen = Display(
 
 face_screen = Display(
     title= "Select a Face Below", 
-    content= cube_screen.content,
+    content= cube.print_cube(),
     options=[
         "1. Front",
         "2. Left",
@@ -43,7 +43,7 @@ face_screen = Display(
 
 direction_prompt = Display(
     title = cube_screen.title,
-    content = cube_screen.content,
+    content = cube.print_cube(),
     options=[
         "1. Clockwise",
         "2. Counter-clockwise"
